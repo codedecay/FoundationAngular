@@ -1,6 +1,6 @@
 using System.Web.Optimization;
 
-namespace FoundationAngular
+namespace $safeprojectname$
 {
     public class BundleConfig
     {

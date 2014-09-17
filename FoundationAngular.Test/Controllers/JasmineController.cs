@@ -1,6 +1,6 @@
 using System.Web.Mvc;
 
-namespace FoundationAngular.Test.Controllers
+namespace $safeprojectname$.Test.Controllers
 {
     [RoutePrefix("")]
     public class JasmineController : Controller

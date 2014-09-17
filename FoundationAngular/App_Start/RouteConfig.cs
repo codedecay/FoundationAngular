@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace FoundationAngular
+namespace $safeprojectname$
 {
     public class RouteConfig
     {

@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="FoundationAngular.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="$safeprojectname$.Global" Language="C#" %>

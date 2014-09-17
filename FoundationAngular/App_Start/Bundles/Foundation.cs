@@ -1,7 +1,7 @@
 using System.Web.Optimization;
 
 // ReSharper disable once CheckNamespace
-namespace FoundationAngular
+namespace $safeprojectname$
 {
     public static class Foundation
     {

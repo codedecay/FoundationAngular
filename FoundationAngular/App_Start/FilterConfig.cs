@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace FoundationAngular
+namespace $safeprojectname$
 {
 
     public class FilterConfig

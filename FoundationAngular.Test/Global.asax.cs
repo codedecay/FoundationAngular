@@ -2,7 +2,7 @@
 using System.Web.Routing;
 
 
-namespace FoundationAngular.Test
+namespace $safeprojectname$.Test
 {
     public class Global : System.Web.HttpApplication
     {

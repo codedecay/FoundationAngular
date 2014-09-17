@@ -2,7 +2,7 @@
 
 
 
-namespace FoundationAngular.Controllers
+namespace $safeprojectname$.Controllers
 {
     [RoutePrefix("Home")]
     public class HomeController : Controller
