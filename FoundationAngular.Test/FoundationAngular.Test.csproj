@@ -101,6 +101,7 @@
   <ItemGroup>
     <Content Include="Content\jasmine\jasmine.css" />
     <Content Include="Content\jasmine\jasmine_favicon.png" />
+    <Content Include="Global.asax" />
     <Content Include="Scripts\angularjs\angular-mocks.js" />
     <Content Include="Scripts\angularjs\angular.js" />
     <Content Include="Scripts\angularjs\angular.min.js" />
@@ -118,9 +119,14 @@
     <Content Include="Scripts\jquery\jquery-2.1.1.min.js" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery\jquery-2.1.1.min.map" />
+    <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\JasmineController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +144,9 @@
     <TypeScriptCompile Include="Scripts\typings\jasmine-jquery\jasmine-jquery.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jasmine\jasmine.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Shared\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
