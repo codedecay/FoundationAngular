@@ -1,0 +1,1 @@
+{"version":3,"file":"Song.js","sourceRoot":"","sources":["Song.ts"],"names":["Song","Song.constructor","Song.persistFavoriteStatus"],"mappings":"AACA;IAAAA;QACIC,KAAAA,UAAUA,GAAYA,KAAKA,CAACA;IAIhCA,CAACA;AAAAD,IAHGA,uCAAAA,UAAsBA,KAAcA;QAChCE,IAAIA,CAACA,UAAUA,GAAGA,KAAKA;IAC3BA,CAACA;IACLF,YAACA;AAADA,CAACA,IAAA"}

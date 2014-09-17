@@ -1,0 +1,34 @@
+/*  For Template Layout Only */
+.fndtn-templates div > div > a {
+    display: block;
+    border: solid 1px #eeeeee;
+    height: 200px;
+    overflow: hidden;
+}
+
+.fndtn-templates .display {
+background-color: #dddddd;
+margin-bottom: 5px;
+display: block;
+}
+
+
+$topbar-background: #333333;
+$sidebar-button-background: #414141;
+
+/* For Main Layout Only */
+.top-bar-section ul li > a.button {
+    background-color: $topbar-background !important;
+    &:hover {
+        background-color: $topbar-background !important;
+        text-decoration: underline;
+    }
+
+}
+
+.off-canvas-list a {
+    background-color:$sidebar-button-background !important;
+    &:first-of-type {
+        margin-top:15px;
+    }
+}
